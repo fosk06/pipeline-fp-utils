@@ -13,20 +13,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fosk06/parseJsonFromBuffer.git"
+    "url": "git+https://github.com/fosk06/pipeline-fp-utils.git"
   },
   "author": "thomas trividic <fosk.ttr@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fosk06/parseJsonFromBuffer/issues"
+    "url": "https://github.com/fosk06/pipeline-fp-utils/issues"
   },
-  "homepage": "https://github.com/fosk06/parseJsonFromBuffer#readme",
+  "homepage": "https://github.com/fosk06/pipeline-fp-utils#readme",
   "devDependencies": {
     "chai": "^4.3.6",
-    "mocha": "^6.2.2",
-    "typescript": "^3.6.4"
+    "mocha": "^6.2.2"
   },
-  "dependencies": {
-    "@types/node": "^12.12.3"
-  }
+  "dependencies": {}
 }

@@ -9,7 +9,7 @@
     "test": "mocha --reporter spec",
     "tag": "git tag v0.0.1",
     "push": "git push origin master --tags",
-    "prepare": "npm run build"
+    "prepares": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,8 @@
     "url": "https://github.com/fosk06/pipeline-fp-utils/issues"
   },
   "homepage": "https://github.com/fosk06/pipeline-fp-utils#readme",
-  "devDependencies": {
+  "dependencies": {
     "chai": "^4.3.6",
-    "mocha": "^6.2.2"
-  },
-  "dependencies": {}
+    "mocha": "^9.2.1"
+  }
 }

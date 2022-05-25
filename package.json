@@ -1,11 +1,11 @@
 {
   "name": "pipeline-fp-utils",
-  "version": "0.0.1",
-  "description": "parse a json form a buffer",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "version": "0.0.2",
+  "description": "utilities fonctions to use with pipeline from streams module",
+  "main": "lib/index.mjs",
+  "types": "index.d.ts",
   "scripts": {
-    "start": "node src/index.mjs",
+    "start": "node lib/index.mjs",
     "test": "mocha --reporter spec",
     "tag": "git tag v0.0.1",
     "push": "git push origin master --tags",

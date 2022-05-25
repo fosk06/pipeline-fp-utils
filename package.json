@@ -1,6 +1,6 @@
 {
   "name": "pipeline-fp-utils",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "utilities fonctions to use with pipeline from streams module",
   "main": "lib/index.mjs",
   "types": "index.d.ts",
@@ -21,7 +21,9 @@
     "url": "https://github.com/fosk06/pipeline-fp-utils/issues"
   },
   "homepage": "https://github.com/fosk06/pipeline-fp-utils#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@types/node": "^17.0.35"
+  },
   "devDependencies": {
     "chai": "^4.3.6",
     "mocha": "^9.2.1",

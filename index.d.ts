@@ -1,9 +1,11 @@
-declare namespace PipelineFpUtils {
-    declare function map(g: any): any;
-    declare function mergeObjects(g: any): any;
-    declare function toJsonLine(g: any): any;
-    declare function tap(g: any): any;
-    declare function fromCallback(g: any): any;
-    declare function filter(g: any): any;
-    declare function fromArray(g: any): any;
+type Stream = ReadableStream | WritableStream | TransformStream | AsyncGenerator<any>;
+
+declare module "pipeline-fp-utils" {
+    function map(g: Stream): Stream;
+    function mergeObjects(g: Stream): Stream;
+    function toJsonLine(g: Stream): Stream;
+    function tap(g: Stream): Stream;
+    function fromCallback(g: Stream): Stream;
+    function filter(g: Stream): Stream;
+    function fromArray(g: Array<any>): Stream;
 }
